@@ -13,7 +13,7 @@ public class SplashScreen {
 
     public Stage getStage() {
         Stage splashStage = new Stage(StageStyle.UNDECORATED);
-        ImageView splashImage = new ImageView(new Image(Objects.requireNonNull(getClass().getResource("/splash-image.png")).toExternalForm()));
+        ImageView splashImage = new ImageView(new Image(Objects.requireNonNull(getClass().getResource("/splash-image.jpg")).toExternalForm()));
         splashImage.setFitWidth(200);
         splashImage.setFitHeight(300);
         splashImage.setPreserveRatio(true);

@@ -4,13 +4,10 @@ import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.concurrent.Task;
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import org.example.ui.MenuScreen;
 import org.example.ui.SplashScreen;
-
-import java.awt.*;
 
 
 public class Main extends Application {
